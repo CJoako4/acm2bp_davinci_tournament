@@ -15,11 +15,10 @@ public class Main {
             comienzoDeCursada,
             finDeCursada
         );
-        Match primerparcial = new Match("aula 116", fechaParcial);
-
 
         Team profespoo = new Team("profes POO");
         Team estudiantespoo = new Team("estudiantes POO");
+        Match primerparcial = new Match("aula 116", fechaParcial,profespoo,estudiantespoo);
 
 
 
