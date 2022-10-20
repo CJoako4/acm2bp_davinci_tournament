@@ -9,6 +9,8 @@ public class Main {
         Date finDeCursada = new Date(2022,11,5);
         Date fechaParcial = new Date(2022,8,29);
 
+        Player jugador = new Player("joebiden","arquero");
+
 
         Season torneoDaVinci = new Season(
             "Torneo 2022, 2do cuatri",

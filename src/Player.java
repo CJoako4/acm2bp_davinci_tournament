@@ -9,6 +9,20 @@ public class Player{
         return;
     }
 
+    Player(String name){
+        this.setName(name);
+        this.setGoalCounter(0);
+        this.setMatchCounter(0);
+
+    }
+
+    Player(String name, String position){
+        this.setName(name);
+        this.setGoalCounter(0);
+        this.setMatchCounter(0);
+        this.setPosition(position);
+    }
+
     public String getName() {
         return this.name;
     }
