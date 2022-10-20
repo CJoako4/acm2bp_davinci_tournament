@@ -10,16 +10,19 @@ public class Main {
         Date fechaParcial = new Date(2022,8,29);
 
         Player jugador = new Player("joebiden","arquero");
+        Player suplente = new Player("mccain","panchero");
+        Team profespoo = new Team("profes POO");
 
-
+        profespoo.addPlayer(jugador);
+        profespoo.addPlayer(suplente);
+        Team estudiantespoo = new Team("estudiantes POO");
         Season torneoDaVinci = new Season(
             "Torneo 2022, 2do cuatri",
             comienzoDeCursada,
             finDeCursada
         );
 
-        Team profespoo = new Team("profes POO");
-        Team estudiantespoo = new Team("estudiantes POO");
+
         Match primerparcial = new Match("aula 116", fechaParcial,profespoo,estudiantespoo);
 
 
