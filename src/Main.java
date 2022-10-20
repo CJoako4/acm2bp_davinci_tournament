@@ -18,6 +18,10 @@ public class Main {
         Match primerparcial = new Match("aula 116", fechaParcial);
 
 
+        Team profespoo = new Team("profes POO");
+        Team estudiantespoo = new Team("estudiantes POO");
+
+
 
     }
 }
