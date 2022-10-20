@@ -5,7 +5,7 @@ public class Main {
         System.out.println("Da Vinci Tournament");
         Date comienzoDeCursada = new Date(2022,7,18);
 
-        
+
         Date finDeCursada = new Date(2022,11,5);
 
 
@@ -14,7 +14,7 @@ public class Main {
             comienzoDeCursada,
             finDeCursada
         );
-
+        
 
     }
 }
